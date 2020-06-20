@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Lolo.Utils\Lolo.Utils.csproj" />
+    <ProjectReference Include="..\..\plugins\Lolo.Utils\Lolo.Utils.csproj" />
   </ItemGroup>
 
 </Project>
