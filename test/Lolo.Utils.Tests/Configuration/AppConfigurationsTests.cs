@@ -37,16 +37,16 @@ namespace Lolo.Utils.Configuration.Tests
         }
 
         [Fact(DisplayName = "多配置文件")]
-        public void GetTest3()
+        public void GetTest2()
         {
             //Arrange
 
             //ACT
             var config = AppConfigurations.Get(path, new string[] { "appsettings.json", "appsettings1.json" });
-
             //Assert 
             Assert.True(config["CashierVersion:Size"] == "1024", "多配置文件,测试不同项是否能读取");
             Assert.True(config["CashierVersion:Version"] == "0.9.0", "多配置文件,相同项取最后加载文件的值");
         }
+
     }
 }
