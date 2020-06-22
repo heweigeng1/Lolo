@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lolo.Utils.Tests", "test\Lo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lolo.Utils", "plugins\Lolo.Utils\Lolo.Utils.csproj", "{E50A431A-46E3-4F34-BA2C-41C959C2EC8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lolo.Ali.OSS", "plugins\Lolo.Ali.OSS\Lolo.Ali.OSS.csproj", "{9E0D9002-8EE5-4B54-8415-0729F81142A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lolo.Ali.OSS", "plugins\Lolo.Ali.OSS\Lolo.Ali.OSS.csproj", "{9E0D9002-8EE5-4B54-8415-0729F81142A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lolo.Ali.OSS.Tests", "test\Lolo.Ali.OSS.Tests\Lolo.Ali.OSS.Tests.csproj", "{1A5A4E6B-3F40-49DF-8556-3484AD52F569}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,6 +139,10 @@ Global
 		{9E0D9002-8EE5-4B54-8415-0729F81142A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E0D9002-8EE5-4B54-8415-0729F81142A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E0D9002-8EE5-4B54-8415-0729F81142A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A5A4E6B-3F40-49DF-8556-3484AD52F569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5A4E6B-3F40-49DF-8556-3484AD52F569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5A4E6B-3F40-49DF-8556-3484AD52F569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5A4E6B-3F40-49DF-8556-3484AD52F569}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -162,6 +168,7 @@ Global
 		{7A27B2E6-318C-409B-A011-9B0C3ADFB069} = {CCD2960C-23CC-4AB4-B84D-60C7AAA52F4D}
 		{E50A431A-46E3-4F34-BA2C-41C959C2EC8D} = {A52795D7-69CC-46A4-BBB1-B038FC3C2BBF}
 		{9E0D9002-8EE5-4B54-8415-0729F81142A1} = {A52795D7-69CC-46A4-BBB1-B038FC3C2BBF}
+		{1A5A4E6B-3F40-49DF-8556-3484AD52F569} = {CCD2960C-23CC-4AB4-B84D-60C7AAA52F4D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4324B3B4-B60B-4E3C-91D8-59576B4E26DD}

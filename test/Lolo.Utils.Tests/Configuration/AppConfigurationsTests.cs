@@ -47,6 +47,5 @@ namespace Lolo.Utils.Configuration.Tests
             Assert.True(config["CashierVersion:Size"] == "1024", "多配置文件,测试不同项是否能读取");
             Assert.True(config["CashierVersion:Version"] == "0.9.0", "多配置文件,相同项取最后加载文件的值");
         }
-
     }
 }
