@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Lolo.Ali.OSSTests
+namespace Lolo.SMS
 {
-    class AppsettingsGetOssProfileTests
+    public class SMSRecord
     {
     }
 }
