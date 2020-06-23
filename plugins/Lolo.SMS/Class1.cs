@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Lolo.Ali.SMS
+namespace Lolo.SMS
 {
     public class Class1
     {
