@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Text;
 
 namespace Lolo.SMS
@@ -17,6 +18,7 @@ namespace Lolo.SMS
         public string Name { get; set; }
         public string Body { get; set; }
         public string Parameter { get; set; }
+        public string Description { get; set; }
         public bool IsActive { get; set; }
         public bool IsDefault { get; set; }
     }

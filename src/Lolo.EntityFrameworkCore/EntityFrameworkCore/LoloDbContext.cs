@@ -4,7 +4,7 @@ using Volo.Abp.EntityFrameworkCore;
 
 namespace Lolo.EntityFrameworkCore
 {
-    [ConnectionStringName(LoloDbProperties.ConnectionStringName)]
+    [ConnectionStringName(LoloDbProperties.MongoDbConnectionStringName)]
     public class LoloDbContext : AbpDbContext<LoloDbContext>, ILoloDbContext
     {
         /* Add DbSet for each Aggregate Root here. Example:
