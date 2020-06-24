@@ -17,6 +17,7 @@ namespace Lolo.MongoDB
                 /* Add custom repositories here. Example:
                  * options.AddRepository<Question, MongoQuestionRepository>();
                  */
+                options.AddDefaultRepositories();
             });
         }
     }

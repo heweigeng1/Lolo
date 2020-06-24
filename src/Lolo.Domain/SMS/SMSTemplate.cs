@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
+using Volo.Abp.Domain.Entities;
 
 namespace Lolo.SMS
 {
     /// <summary>
     /// 短信模版
     /// </summary>
-    public class SMSTemplate
+    public class SMSTemplate: AggregateRoot<Guid>
     {
         public enum EnumTemplateType
         {
