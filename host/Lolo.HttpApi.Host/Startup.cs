@@ -1,4 +1,5 @@
 ﻿using System;
+using Lolo.EntityFrameworkCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
@@ -11,6 +12,7 @@ namespace Lolo
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddApplication<LoloHttpApiHostModule>();
+            //services.AddDbContext<LoloDbContext>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
