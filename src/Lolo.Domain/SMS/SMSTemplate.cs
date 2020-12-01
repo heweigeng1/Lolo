@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Text;
 using Volo.Abp.Domain.Entities;
 
 namespace Lolo.SMS

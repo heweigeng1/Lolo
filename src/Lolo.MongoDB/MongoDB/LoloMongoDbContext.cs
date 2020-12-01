@@ -4,7 +4,7 @@ using Volo.Abp.MongoDB;
 
 namespace Lolo.MongoDB
 {
-    [ConnectionStringName(LoloDbProperties.ConnectionStringName)]
+    [ConnectionStringName(LoloDbProperties.MongoDbConnectionStringName)]
     public class LoloMongoDbContext : AbpMongoDbContext, ILoloMongoDbContext
     {
         /* Add mongo collections here. Example:
